@@ -1,14 +1,12 @@
-import Header from './header/Header.jsx'
+import Headertwo from './Headertwo/Headertwo.jsx'
 import Footer from './Footer/Footer.jsx'  
 import Main from './Main/Main.jsx'  
 function App() {
   return (
     <>
-      <Header />
+      <Headertwo />
       <Main />
       <Footer />
     </>
   )
 }
-
-export default App

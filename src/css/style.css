@@ -41,10 +41,16 @@ nav{
     display: flex;
     justify-content: center;
 }
+.vov{
+    text-decoration: none;
+    color: white;
+}
 .bottom >div{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 80%;
+    height: 50px;
 }
 .right{
     display: flex;
@@ -57,4 +63,7 @@ nav{
 .left img{
     width: 28px;
     height: 28px;
+}
+.head{
+    background-color: blue;
 }

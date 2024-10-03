@@ -2,10 +2,10 @@ import '../css/style.css'
 import logo from '../assets/logo.png'
 import img1 from '../assets/Frame38.png'
 import { Link } from 'react-router-dom'
-function Header() {
+function Headertwo() {
     return (
       <>
-        <header>
+        <header className='head'>
             <nav>
                 <div className='top'>
                     <img src={logo} alt="" />
@@ -20,7 +20,7 @@ function Header() {
                 </div>
                 <div className='bottom'>
                     <div>
-                        <Link className='vov' to='./Apps.jsx'>О компании</Link>
+                        <Link className='vov'>О компании</Link>
                         <Link className='vov'>Деятельность</Link>
                         <Link className='vov'>Персонал</Link>
                         <Link className='vov'>Клиенту</Link>
@@ -36,4 +36,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Headertwo
