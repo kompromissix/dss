@@ -26,7 +26,7 @@ function Chul(ds){
     </div>
   )
 }
-function Main() {
+function  AboutTheCompany() {
   const [count, setCount] = useState(0)
   return (
     <>
@@ -150,4 +150,4 @@ function Main() {
   )
 }
 
-export default Main
+export default AboutTheCompany

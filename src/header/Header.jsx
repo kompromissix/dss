@@ -20,9 +20,9 @@ function Header() {
                 </div>
                 <div className='bottom'>
                     <div>
-                        <Link className='vov' to='./Apps.jsx'>О компании</Link>
+                        <Link className='vov' to='/AboutTheCompany'>О компании</Link>
                         <Link className='vov'>Деятельность</Link>
-                        <Link className='vov'>Персонал</Link>
+                        <Link className='vov' to='/Personal'>Персонал</Link>
                         <Link className='vov'>Клиенту</Link>
                         <Link className='vov'>Акционеру и инвестору</Link>
                         <Link className='vov'>Пресс-центр</Link>
