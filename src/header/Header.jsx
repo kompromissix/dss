@@ -23,10 +23,10 @@ function Header() {
                         <Link className='vov' to='/AboutTheCompany'>О компании</Link>
                         <Link className='vov'>Деятельность</Link>
                         <Link className='vov' to='/Personal'>Персонал</Link>
-                        <Link className='vov'>Клиенту</Link>
+                        <Link className='vov' to='/Activity'>Клиенту</Link>
                         <Link className='vov'>Акционеру и инвестору</Link>
                         <Link className='vov'>Пресс-центр</Link>
-                        <Link className='vov'>Торги</Link>
+                        <Link className='vov' to='/Marketplace'>Торги</Link>
                         <Link className='vov'>Контакты</Link>
                     </div>
                 </div>

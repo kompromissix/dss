@@ -54,5 +54,107 @@
     width: 30px;
 }
 .block-top{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1840A7;
+    width: 966px;
+    height: 768px;
+}
+.block-top > div{
+    width: 886px;
+    height: 688px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block-top h1{
+    width: 100%;
+    text-align: center;
+    color: #1840A7;
+    font-size: 24px;
+    font-weight: bold;
+}
+.block-makaroni{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 250px;
+}
+.block-makaroni h2{
+    font-size: 24px;
+    height: 34px;
+}
+.block-makaroni p{
+    font-size: 16px;
+    width: 458px;
+}
+.block-makaroni > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 209px;
+}
+.Onetofive-block{
+    display: flex;
+    flex-direction: column;
+    height: 122px;
+    width: 279px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Onetofive-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1840A7;
+    height: 58px;
+    width: 59px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1840A7;
+}
+.Onetofive-bottom{
+    font-size: 16px;
+    text-align: center;
+    height: 60px;
+}
+.block-bottom-makaroni{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 290px;
+    width: 100%;
+}
+.block-bottom-makaroni-verh{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.block-bottom-makaroni-niz{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.text-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block-bootom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 728px;
+    width: 966px;
+}
+.block-bootom > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-bootom p{
+    width: 486px;
+    font-size: 16px;
 }
